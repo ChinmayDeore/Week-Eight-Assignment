@@ -1,0 +1,21 @@
+## Chinmay D. 10/27/2022 Hg5590
+def IssueNine():
+# Naming and starting the function
+    cost = float(input("Enter Total Meal Cost: $"))
+# accepts an integer of the total cost of food
+    tip = int(input('''Enter Tip Percentage 
+    '18' or '25' or '30': '''))
+# Gives 3 options 
+    x = int(input("Enter amount of people splitting cost: "))
+    y = cost *(1 +(tip/100))/x
+    z = "{:.2f}".format(y, 2)
+    if tip == 18:
+        print(f"Cost per person: ${z}")
+    elif tip == 25:
+        print(f"Cost per person: ${z}")
+    else:
+        print(f"Cost per person: ${z}")
+# Asks for how many people to divide the bill with 
+# and prints out the cost each person will pay
+IssueNine()
+# End of the function and fullfills all the criteria 
